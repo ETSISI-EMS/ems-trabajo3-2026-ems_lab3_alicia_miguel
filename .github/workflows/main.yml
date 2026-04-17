@@ -43,7 +43,7 @@ jobs:
         with:
           url: '${{ secrets.SONAR_HOST_URL }}/api/qualitygates/project_status?projectKey=${{ secrets.PROJECT_ID}}'
           method: 'GET'
-          bearerToken: ${{ secrets.SONAR_TOKEN }}
+          bearerToken: '${{ secrets.SONAR_TOKEN }}'
           timeout: 30000
           retry: 3
           retryWait: 5000
