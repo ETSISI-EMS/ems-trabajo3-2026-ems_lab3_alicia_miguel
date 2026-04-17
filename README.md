@@ -7,3 +7,5 @@ En esta práctica vamos a simular que una consultora contrató a los alumnos de 
 Cambio num 2
 TOKEN CORREGIDO
 He cambiado project id
+
+ejecucion despues de rules y gate
